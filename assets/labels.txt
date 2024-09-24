@@ -1,0 +1,8 @@
+air conditioner
+fan
+gas stove
+microwave
+purifier
+refrigerator
+rice cooker
+tv
