@@ -145,6 +145,4 @@ app.*.map.json
 /android/app/release
 
 # model files
-assets/yolox_base.tflite
-assets/yolox.tflite
-assets/coco_labels.txt
+assets/*
