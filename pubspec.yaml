@@ -19,6 +19,9 @@ dependencies:
   image_picker: ^1.1.2
   tflite_flutter: ^0.11.0
   image: ^4.2.0
+  qr_flutter: ^4.1.0
+  qr_code_scanner: ^1.0.1
+  image_gallery_saver: ^1.7.1
 
 dev_dependencies:
   flutter_test:
@@ -29,7 +32,22 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/yolox.tflite
-    - assets/yolox_base.tflite
-    - assets/coco_labels.txt
-    - assets/labels.txt
+    - assets/images/
+    - assets/models/
+    - assets/labels/
+    - assets/fonts/
+
+  fonts:
+    - family: yg-jalnan
+      fonts:
+        - asset: assets/fonts/Jalnan2.otf
+    - family: nanum-square
+      fonts:
+        - asset: assets/fonts/NanumSquareL.otf
+          weight: 200
+        - asset: assets/fonts/NanumSquareR.otf
+          weight: 300
+        - asset: assets/fonts/NanumSquareB.otf
+          weight: 400
+        - asset: assets/fonts/NanumSquareEB.otf
+          weight: 500
